@@ -1,0 +1,24 @@
+model                     mcnp
+method                    CADIS
+outputs                   MCNP
+
+mcnp_input                ../ETA.inp
+mcnp_input_template       ../ETA.inp
+mcnp_tallies              24
+mcnp_force_point_source   True
+mcnp_mix_tolerance        0.05
+
+anisn_library             dplus
+
+denovo_pn_order           3
+
+denovo_x_blocks    4
+denovo_y_blocks    5
+mesh_x                    -19.0   -14.0   -2.004   2.004   14.0   19.0  
+mesh_x_ints               2   12   13   12   2  
+
+mesh_y                    -19.0   -14.0   -2.004   2.004   14.0   19.0  
+mesh_y_ints               2   12   13   12   2  
+
+mesh_z                    -2.5   7.76395400496   18.7621867006   19.4624867006   44.3   49.3  
+mesh_z_ints               5   11   8   25   2  

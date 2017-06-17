@@ -1,0 +1,28 @@
+##Folders
+AsConstructed/Ba_Alts/*
+AsConstructed/NIF_Variations/*
+AsConstructed/CAD_Models/Archive/*
+InitialQuoted/wo_Dim/CostReductionVariations/*
+Population/*/wwinp
+AsConstructed/Plots/.ipynb_checkpoints/*
+AsConstructed/Plots/Archive/*
+InitialQuoted/advantg/*
+Results/.ipynb_checkpoints/*
+
+# MCNP Files
+*.sh
+
+# ADVANTG Files
+inp_edits.txt
+
+# Extra python files
+*.pyc
+
+## Other Files
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.$$$
+~$*
+*.zip
